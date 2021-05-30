@@ -3,21 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="recipe.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <title>Fetch</title>
+
   </head>
+
+
   <body>
+    <h1>FOOGLE</h1>
+    
+ 
+   
+    
+   
     <section id="recipe-section">
-      <h2 class="section-heading">Welcome to the Recipe Finder!</h2>
-      <input
+      <!-- <h2 class="section-heading">Recipe Finder</h2> -->
+
+      <div class="search">
+        <input
+        placeholder="Type ingredient here!"
         aria-label="food-input"
         id="food-input"
         onchange="handleFoodChange()"
-      />
+         />
       <button id="recipe-button" onclick="handleRecipeClick()">
-        Give me a recipe!
+        <i class="fas fa-search"></i>
       </button>
-      <a id="recipe-label"></a>
+        
+      </div>
+    
+      <!-- <input
+      aria-label="language-input"
+        id="language-input"
+        onchange="handleTranslationInput()"
+        placeholder="Translate"> -->
+     
+     
+
+
+
+
+      
+
+
+      
+        <!-- <button  id="translation" onclick="handleTranslationClick()" >Translation -->
+
+
+      <section id= "results" > 
+     
+      </section>
     </section>
+
     <script src="./main.js"></script>
+    <script src="https://kit.fontawesome.com/8be98d109a.js" crossorigin="anonymous"></script>
+
+  
+    
   </body>
+</div>
+<footer>
+  <div class="bottom-nav">
+      
+      <a href="#health">Health</a>
+      <a href="#contact">Contact</a>
+     
+    </div>
+  
+</footer>
 </html>
